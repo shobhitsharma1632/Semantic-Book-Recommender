@@ -26,20 +26,29 @@ This project provides a book recommendation dashboard that leverages semantic se
 - [`text_classification.ipynb`](text_classification.ipynb): Notebook for category mapping and classification.
 - [`sentiment_analysis.ipynb`](sentiment_analysis.ipynb): Notebook for emotion analysis and scoring.
 - [`data_exploration.ipynb`](data_exploration.ipynb): Data cleaning and exploration.
+- [`vector_search.ipynb`](vector_search.ipynb): Creating a vector Database from the dataset.
 
 ## Getting Started
 
 1. **Install dependencies:**
+   There are 2 ways to install dependencies. I have used a conda environment and created a requirements.txt that can be directly used to create a conda environment
    ```sh
-   pip install -r requirements.txt
+   conda create --name <env> --file requirements.txt
    ```
-
-2. **Run the dashboard:**
+   I have also uploaded a requirement file in the right format for pip
+   ```sh
+   pip install requirements_pip.txt
+   ```
+2. Run the jupyter notebooks in the following order to generate csv files needed to run the dashboard.
+   - data_exploration.ipynb
+   - text_classification.ipynb
+   - 
+4. **Run the dashboard:**
    ```sh
    python gradio_dashboard.py
    ```
 
-3. **Open the provided link in your browser to use the recommender.**
+5. **Open the provided link in your browser to use the recommender.**
 
 ## Requirements
 
@@ -53,6 +62,7 @@ This project provides a book recommendation dashboard that leverages semantic se
 - `text_classification.ipynb` — Category processing
 - `sentiment_analysis.ipynb` — Emotion scoring
 - `data_exploration.ipynb` — Data cleaning
+- `vector_search.ipynb` — Creating a Vector Database
 - `README.md`, `requirements.txt`, etc.
 
 ## Acknowledgements

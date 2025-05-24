@@ -15,7 +15,7 @@ This project provides a book recommendation dashboard that leverages semantic se
 
 ## Data
 
-- 7k Books Dataset - https://www.kaggle.com/datasets/dylanjcastillo/7k-books-with-metadata
+- This project is based on 7k Books Dataset by Dylan Castillo- https://www.kaggle.com/datasets/dylanjcastillo/7k-books-with-metadata
 - Book metadata and descriptions are processed and cleaned from public datasets.
 - Categories are mapped to simplified groups for easier filtering.
 - Emotion scores for each book are computed using a transformer-based emotion classifier.
